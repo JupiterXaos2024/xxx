@@ -61,13 +61,14 @@ const flowDiscord = addKeyword(['discord']).addAnswer(
 )
 
 const flowPrincipal = addKeyword(['hola', 'ole', 'alo'])
-    .addAnswer('🙌 Hola bienvenido a este *Chatbot*')
+    .addAnswer('¡Hola! Soy CHARLOTTE, tu asesora virtual. ¿Listo para explorar las maravillas del Proyecto Órbita?')
     .addAnswer(
         [
-            'te comparto los siguientes links de interes sobre el proyecto',
-            '👉 *doc* para ver la documentación',
-            '👉 *gracias*  para ver la lista de videos',
-            '👉 *discord* unirte al discord',
+            'Opciones',
+            '1.ℹ️ Información General sobre el Proyecto.',
+            '2.🏢 Servicios Empresariales.',
+            '3.🏡 Servicios Domésticos',
+'4.🎓 Servicios Profesionales.'
         ],
         null,
         null,
